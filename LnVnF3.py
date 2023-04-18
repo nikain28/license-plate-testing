@@ -209,7 +209,7 @@ def lic_thread(img):
                                         (0, 0, 255), 2)
                             decoded_text = decoded_text
                             b.append("ROI2")
-                            print("decoded_text")
+                            print(decoded_text)
                             #b.append(decoded_text)
                             #cv2.rectangle(img, (x, y), (x + w, y + h), (255, 0, 0), 2)
 
@@ -251,7 +251,7 @@ def lic_thread(img):
                                                 (0, 0, 255), 2)
                                     decoded_text = decoded_text
                                     b.append("ROI")
-                                    print("decoded_text")
+                                    print(decoded_text)
                                     #b.append(decoded_text)
                                     #cv2.rectangle(img, (x2, y2), (x2 + w2, y2 + h2), (255, 0, 0), 2)
 
